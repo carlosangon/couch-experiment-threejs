@@ -1,0 +1,14 @@
+# Blender MTL File: 'couch-export.blend'
+# Material Count: 1
+
+newmtl Reflecting_wood
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 0.400000 0.400000 0.400000
+Ks 0.015686 0.015686 0.015686
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump /Users/CarlosAngon/Downloads/D:/Andres/0 Trabajo/0 Symmetry/0 PROYECTOS/MOB - MODELADO DE MOBILIARIO/MOB - SOFA - MODERN SOFA 02/LIGHT WOOD BW.jpg
+map_Kd /Users/CarlosAngon/Desktop/couch_experiment/wood-textures.jpg

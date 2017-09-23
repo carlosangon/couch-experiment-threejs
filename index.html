@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!--
+________/\\\\\\\\\_____/\\\\\\\\\_______/\\\\\\\\\______/\\\___________________/\\\\\__________/\\\\\\\\\\\___        
+ _____/\\\////////____/\\\\\\\\\\\\\___/\\\///////\\\___\/\\\_________________/\\\///\\\______/\\\/////////\\\_       
+  ___/\\\/____________/\\\/////////\\\_\/\\\_____\/\\\___\/\\\_______________/\\\/__\///\\\___\//\\\______\///__      
+   __/\\\_____________\/\\\_______\/\\\_\/\\\\\\\\\\\/____\/\\\______________/\\\______\//\\\___\////\\\_________     
+    _\/\\\_____________\/\\\\\\\\\\\\\\\_\/\\\//////\\\____\/\\\_____________\/\\\_______\/\\\______\////\\\______    
+     _\//\\\____________\/\\\/////////\\\_\/\\\____\//\\\___\/\\\_____________\//\\\______/\\\__________\////\\\___   
+      __\///\\\__________\/\\\_______\/\\\_\/\\\_____\//\\\__\/\\\______________\///\\\__/\\\_____/\\\______\//\\\__  
+       ____\////\\\\\\\\\_\/\\\_______\/\\\_\/\\\______\//\\\_\/\\\\\\\\\\\\\\\____\///\\\\\/_____\///\\\\\\\\\\\/___ 
+        _______\/////////__\///________\///__\///________\///__\///////////////_______\/////_________\///////////_____
+        www.carlos.angon.me / twitter @monster_bo1
+-->
+
+
+<head>
+	<title>Geometry | Experiments</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="/style/style.css" >
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<script src="/js/three.min.js"></script>
+	<script src="/js/OrbitControls.js"></script>
+	<script src="/js/OBJLoader.js"></script>
+	<script src="/js/Detector.js"></script>
+	<script src="/js/MTLLoader.js"></script>
+	<script src="/js/script.js"></script>
+</head>
+<body onload="script();">
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href=""><img class="logo" src="img/canape_logo.png" srcset="img/canape_logo@2x.png"></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li  class="active" ><a href="http://carlos.angon.me/">Home</a></li>        
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>	
+<div class="container-fluid">
+	<div class="col-md-12">
+		<div class="col-md-8">
+
+			<div id="model__container">
+				<p><center>Drag couch to view different angles</center></p>
+			</div>
+
+		</div>
+		<div class="col-md-4 fabric__container">
+			<div class="col-md-12">
+				<p>SELECT FABRIC</p>
+				<div class="pattern__container" id='Dana'></div>
+				<div class="pattern__container" id='Jacklyn'></div>
+				<div class="pattern__container" id='Clintz'></div>
+				<div class="pattern__container" id='Stroheim'></div>
+			</div>
+			<div class="col-md-12 wood__finish_container">
+				<p>SELECT WOOD FINISH</p>
+				<div class="col-md-4" id="Blonde"></div>
+				<div class="col-md-4" id="Dark"></div>
+				<div class="col-md-4" id="Walnut"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="footer">
+	<div class="container-fluid">
+		<p class="text-muted footer-text">Canape © 2017</p>
+	</div>
+</footer>
+</body>
+</html>

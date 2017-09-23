@@ -1,0 +1,117 @@
+/* Document 
+-------------------------------------------------- */
+body {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size:13px;
+    background-color: #FFFFFF;
+    margin: 0px;
+    overflow: hidden;
+}
+/* Navbar style
+-------------------------------------------------- */
+.nav-bar{
+    margin-bottom: 20px !important;
+}
+.navbar-default{
+    background-color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+}
+.logo{
+    margin-top: -10px;
+    width:150px;
+}
+/* Footer style
+-------------------------------------------------- */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f8f8f8;
+}
+.footer-text{
+    margin-top: 20px;
+}
+.text-muted {
+  margin: 20px 0;
+}
+/* Fabric swatches container
+-------------------------------------------------- */
+#model__container {
+
+    max-height: 500px;
+    margin-left: 50px;
+    color:#c9c9c9;
+}
+/* Fabric swatches container
+-------------------------------------------------- */
+.fabric__container{
+     margin-top: 10px;
+}
+.pattern__container{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#Dana {
+    background-image: url('./../img/dana@2x.jpg');
+    background-size: cover;
+    height: 100px;
+    width: 320px;
+    
+}
+#Jacklyn {
+    background-image: url('./../img/jacklyn@2x.jpg');
+    background-size: cover;
+    height: 100px;
+    width: 320px;
+    
+}
+#Clintz {
+    background-image: url('./../img/royal@2x.jpg');
+    background-size: cover;
+    height: 100px;
+    width: 320px;
+    
+}
+#Stroheim {
+    background-image: url('./../img/stroheim@2x.jpg');
+    background-size: cover;
+    height: 100px;
+    width: 320px;
+    
+}
+
+/* Wood finish container
+-------------------------------------------------- */
+.wood__finish_container {
+  margin-top: 20px
+}
+#Blonde {
+    background-image: url('./../img/blonde@2x.jpg');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    
+}
+#Dark {
+    background-image: url('./../img/dark@2x.jpg');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
+#Walnut {
+    background-image: url('./../img/walnut@2x.jpg');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+
+
+
