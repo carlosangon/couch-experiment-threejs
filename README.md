@@ -2,7 +2,7 @@
 
 
 
-<a href="http://carlos.angon.me/experiments/6/" target="_blank">DEMO HERE</a>
+💻 <a href="http://carlos.angon.me/experiments/6/" target="_blank">DEMO HERE</a>
 
 
 <img src="http://carlos.angon.me/experiments/6/img/canape_cover.jpg">
