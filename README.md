@@ -11,7 +11,7 @@ This repo uses threejs to create a visual experience.
 
 ## How to use this repository
 
-The repository contains all the source files to run the `Venus de Milo` threejs experiement.
+The repository contains all the source files to run the `Couch Visual Experience` threejs experiement.
 
 
 ```bash
