@@ -38,3 +38,5 @@ npm install
 npm start
 ```
 - C
+
+TO DO `Fix memory leaks`
