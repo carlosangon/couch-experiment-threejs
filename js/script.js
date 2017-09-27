@@ -53,8 +53,8 @@ function script() {
 			couchBaseLoader();
 			});
 
-	    CANVAS_WIDTH = 800,
-    	CANVAS_HEIGHT = 800;
+	    		CANVAS_WIDTH = 800,
+    			CANVAS_HEIGHT = 800;
 
 			function init() {
 
@@ -129,7 +129,7 @@ function script() {
 				planeMesh.rotation.x = -90 * Math.PI / 180;
 				planeMesh.position.y = 0;
 				planeMesh.receiveShadow = true;
-  			scene.add( planeMesh );
+  				scene.add( planeMesh );
 
 				window.addEventListener('resize', onWindowResize, false);
 
