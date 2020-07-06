@@ -1,8 +1,8 @@
 ## 🛋 Couch Visual Experiment
 
-## 💻 <a href="http://carlos.angon.me/experiments/6/" target="_blank">DEMO HERE</a>
+## 💻 <a href="http://angon.me/experiments/6/" target="_blank">DEMO HERE</a>
 <br/>
-<img src="http://carlos.angon.me/experiments/6/img/canape_cover.jpg">
+<img src="http://angon.me/experiments/6/img/canape_cover.jpg">
 
 This repo uses threejs to create a visual experience. 
 
